@@ -7,9 +7,8 @@
 
   <!-- Telegram Mini App -->
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
-
+  
   <style>
-  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -226,7 +225,35 @@
   .nav-btn.active {
     color: #f5df8b;
     font-weight: bold;
-  }
+  }/* VIP Gallery */
+.gallery-title {
+  color: #f5df8b;
+  font-size: 21px;
+  margin: 25px 0 15px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.gallery-item {
+  display: block;
+  background: #1b1b1b;
+  border: 1px solid rgba(212,175,55,.35);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
 </style>
 </head>
 
@@ -244,7 +271,30 @@
   </header>
   
 
-  <!-- HOME -->
+  <!-- HOME --><h2 class="gallery-title">✨ VIP Collection</h2>
+<div class="gallery">
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1923" target="_blank">
+    <img src="DD56DE22-BEEF-4B00-A3EF-A739EB07BE3B.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1938" target="_blank">
+    <img src="FC45050E-1BF1-4BDD-A35C-AED0231EF89C.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1932" target="_blank">
+    <img src="IMG_3229.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1948" target="_blank">
+    <img src="IMG_3231.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1956" target="_blank">
+    <img src="IMG_3232.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/1995" target="_blank">
+    <img src="IMG_3233.jpeg">
+  </a>
+  <a class="gallery-item" href="https://t.me/publicvipreviews/2009" target="_blank">
+    <img src="IMG_3234.jpeg">
+  </a>
+</div>
 <section id="home" class="page active">
 
   <div class="channel-card">
